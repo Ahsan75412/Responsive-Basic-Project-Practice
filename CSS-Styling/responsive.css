@@ -1,0 +1,40 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width:600px){
+    #nav-menu ul li{
+        flex-direction: column;
+        display: block;
+    }
+    .menu {
+        background-color: rgb(158, 29, 6);
+        width: 100%;
+
+    }
+    .menu a {
+        padding: 5px ;    
+         
+    }
+
+    .text-hero h1{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: small;
+    }
+}
+
+/* header section end here */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .text-hero h1{
+        font-size: 40px;
+    }
+ 
+    /* header section end here */
+
+} 
+
+
+
